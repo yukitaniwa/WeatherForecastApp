@@ -1,0 +1,174 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "button_tile_place" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在地から取得"
+          }
+        }
+      }
+    },
+    "list_title_chance_rain" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "降水確率"
+          }
+        }
+      }
+    },
+    "list_title_hokkaido" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "北海道"
+          }
+        }
+      }
+    },
+    "list_title_hyogo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "兵庫"
+          }
+        }
+      }
+    },
+    "list_title_max_temperature" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高気温"
+          }
+        }
+      }
+    },
+    "list_title_min_temperature" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最低気温"
+          }
+        }
+      }
+    },
+    "list_title_ohita" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大分"
+          }
+        }
+      }
+    },
+    "list_title_tokyo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "東京"
+          }
+        }
+      }
+    },
+    "list_title_weather_cloudiness" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "曇り"
+          }
+        }
+      }
+    },
+    "list_title_weather_rain" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雨"
+          }
+        }
+      }
+    },
+    "list_title_weather_sunny" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晴れ"
+          }
+        }
+      }
+    },
+    "Messages" : {
+
+    },
+    "navigation_title_weather_forecast" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天気予報アプリ"
+          }
+        }
+      }
+    },
+    "texifield_placetext" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在地を入力"
+          }
+        }
+      }
+    },
+    "unit_celsius" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "℃"
+          }
+        }
+      }
+    },
+    "unit_percent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
