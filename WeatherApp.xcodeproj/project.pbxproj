@@ -13,6 +13,10 @@
 		9230E03C2B088BBB00448396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230E03B2B088BBB00448396 /* Preview Assets.xcassets */; };
 		9230E0452B0890D700448396 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9230E0442B0890D700448396 /* Localizable.xcstrings */; };
 		92754C1B2B09E6C20053BC91 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92754C1A2B09E6C20053BC91 /* DetailView.swift */; };
+		92754C1F2B0BAA070053BC91 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92754C1E2B0BAA070053BC91 /* GetWeather.swift */; };
+		92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */; };
+		92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */; };
+		92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		9230E03B2B088BBB00448396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9230E0442B0890D700448396 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		92754C1A2B09E6C20053BC91 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		92754C1E2B0BAA070053BC91 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
+		92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapAPIModels.swift; sourceTree = "<group>"; };
+		92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
+		92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,9 @@
 		9230E0332B088BB800448396 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				92754C1D2B0BA9B40053BC91 /* Model */,
 				92754C1C2B0BA0030053BC91 /* View */,
+				92EAF0532B1191C000B68F90 /* ViewModel */,
 				9230E0382B088BBB00448396 /* Assets.xcassets */,
 				9230E03A2B088BBB00448396 /* Preview Content */,
 				9230E0442B0890D700448396 /* Localizable.xcstrings */,
@@ -79,6 +89,24 @@
 				92754C1A2B09E6C20053BC91 /* DetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		92754C1D2B0BA9B40053BC91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92754C1E2B0BAA070053BC91 /* GetWeather.swift */,
+				92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */,
+				92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92EAF0532B1191C000B68F90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +182,11 @@
 			files = (
 				9230E0372B088BB800448396 /* HomeView.swift in Sources */,
 				92754C1B2B09E6C20053BC91 /* DetailView.swift in Sources */,
+				92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */,
+				92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */,
 				9230E0352B088BB800448396 /* WeatherAppApp.swift in Sources */,
+				92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */,
+				92754C1F2B0BAA070053BC91 /* GetWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

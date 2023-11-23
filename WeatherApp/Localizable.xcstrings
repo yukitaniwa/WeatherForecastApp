@@ -12,6 +12,23 @@
         }
       }
     },
+    "Date: %@" : {
+
+    },
+    "Key" : {
+      "extractionState" : "manual"
+    },
+    "list_title_average_temperature" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平均気温: %d℃"
+          }
+        }
+      }
+    },
     "list_title_chance_rain" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -45,28 +62,6 @@
         }
       }
     },
-    "list_title_max_temperature" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "最高気温"
-          }
-        }
-      }
-    },
-    "list_title_min_temperature" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "最低気温"
-          }
-        }
-      }
-    },
     "list_title_ohita" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -89,42 +84,6 @@
         }
       }
     },
-    "list_title_weather_cloudiness" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "曇り"
-          }
-        }
-      }
-    },
-    "list_title_weather_rain" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "雨"
-          }
-        }
-      }
-    },
-    "list_title_weather_sunny" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "晴れ"
-          }
-        }
-      }
-    },
-    "Messages" : {
-
-    },
     "navigation_title_weather_forecast" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -136,6 +95,9 @@
         }
       }
     },
+    "No data item" : {
+
+    },
     "texifield_placetext" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -143,28 +105,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "現在地を入力"
-          }
-        }
-      }
-    },
-    "unit_celsius" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "℃"
-          }
-        }
-      }
-    },
-    "unit_percent" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%"
           }
         }
       }
