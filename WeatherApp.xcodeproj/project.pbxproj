@@ -17,6 +17,7 @@
 		92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */; };
 		92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */; };
 		92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */; };
+		92EAF0522B0F7AF400B68F90 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0512B0F7AF400B68F90 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapAPIModels.swift; sourceTree = "<group>"; };
 		92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
 		92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		92EAF0512B0F7AF400B68F90 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				92754C1E2B0BAA070053BC91 /* GetWeather.swift */,
 				92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */,
 				92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */,
+				92EAF0512B0F7AF400B68F90 /* Utils.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				92754C1B2B09E6C20053BC91 /* DetailView.swift in Sources */,
 				92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */,
 				92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */,
+				92EAF0522B0F7AF400B68F90 /* Utils.swift in Sources */,
 				9230E0352B088BB800448396 /* WeatherAppApp.swift in Sources */,
 				92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */,
 				92754C1F2B0BAA070053BC91 /* GetWeather.swift in Sources */,

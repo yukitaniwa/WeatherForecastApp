@@ -11,7 +11,7 @@ struct DetailView: View {
     var title: String
     var forecast: WeatherForecastResponse?
     let prefixNum: Int = 7 // リストに表示する予報の日数
-    
+
     var body: some View {
         List {
             if let forecast = forecast {
@@ -34,7 +34,7 @@ struct DetailView: View {
 struct CustomCellView: View {
     var forecastItem: ForecastData
     var iconURL: URL?
-    
+
     var body: some View {
         VStack {
             // 天気アイコンの表示
@@ -46,7 +46,7 @@ struct CustomCellView: View {
                 }.frame(width: 50, height: 50)
             }
             // 日付の表示
-            Text("Date: \(forecastItem.dtTxt)")
+            Text("Date: \(Utils.formatDtTxtToMMDD(forecastItem.dtTxt))")
             // 平均気温の表示
             Text(String(format: NSLocalizedString("list_title_average_temperature", comment: ""), Int(forecastItem.main.temp.rounded())))
         }.padding()
