@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject private var viewModel = WeatherViewModel()
+    @StateObject private var locationManager = LocationManager()
+
     // 入力されたテキスト
     @State private var selectedCity:String = ""
     @State private var isReadyToNavigate: Bool = false
@@ -26,8 +28,17 @@ struct HomeView: View {
                   }
               }
 
+              // ボタン押下で位置情報取得
               Button(LocalizedStringKey("button_tile_place"), action: {
-                  // 位置情報を取得するロジックを追加
+                  locationManager.requestLocation()
+                  locationManager.onLocationUpdated = { location in
+                      locationManager.getPrefectureName(from: location) { prefecture in
+                          if let prefecture = prefecture, let romanizedPrefecture = prefectureRomanization[prefecture] {
+                              viewModel.fetchWeatherForecast(for: romanizedPrefecture)
+                              self.selectedCity = prefecture
+                          }
+                      }
+                  }
               })
               .frame(minWidth: 0, maxWidth: .infinity)
               .padding()

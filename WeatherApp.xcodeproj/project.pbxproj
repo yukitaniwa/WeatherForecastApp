@@ -12,12 +12,14 @@
 		9230E0392B088BBB00448396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230E0382B088BBB00448396 /* Assets.xcassets */; };
 		9230E03C2B088BBB00448396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230E03B2B088BBB00448396 /* Preview Assets.xcassets */; };
 		9230E0452B0890D700448396 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9230E0442B0890D700448396 /* Localizable.xcstrings */; };
+		92715C732B179C22004F7C8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92715C722B179C22004F7C8B /* LocationManager.swift */; };
+		92715C752B17A069004F7C8B /* PrefectureNameMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92715C742B17A069004F7C8B /* PrefectureNameMappings.swift */; };
 		92754C1B2B09E6C20053BC91 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92754C1A2B09E6C20053BC91 /* DetailView.swift */; };
 		92754C1F2B0BAA070053BC91 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92754C1E2B0BAA070053BC91 /* GetWeather.swift */; };
 		92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */; };
 		92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */; };
-		92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */; };
 		92EAF0522B0F7AF400B68F90 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0512B0F7AF400B68F90 /* Utils.swift */; };
+		92EAF0552B1191F300B68F90 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +29,15 @@
 		9230E0382B088BBB00448396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9230E03B2B088BBB00448396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9230E0442B0890D700448396 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		92715C712B179B49004F7C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92715C722B179C22004F7C8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		92715C742B17A069004F7C8B /* PrefectureNameMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureNameMappings.swift; sourceTree = "<group>"; };
 		92754C1A2B09E6C20053BC91 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		92754C1E2B0BAA070053BC91 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
 		92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapAPIModels.swift; sourceTree = "<group>"; };
 		92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
-		92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		92EAF0512B0F7AF400B68F90 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		92EAF0542B1191F300B68F90 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 		9230E0332B088BB800448396 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				92715C712B179B49004F7C8B /* Info.plist */,
 				92754C1D2B0BA9B40053BC91 /* Model */,
 				92754C1C2B0BA0030053BC91 /* View */,
 				92EAF0532B1191C000B68F90 /* ViewModel */,
@@ -100,6 +106,8 @@
 				92D5C8D72B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift */,
 				92D5C8D92B0F5B6B00069DC6 /* Prefectures.swift */,
 				92EAF0512B0F7AF400B68F90 /* Utils.swift */,
+				92715C722B179C22004F7C8B /* LocationManager.swift */,
+				92715C742B17A069004F7C8B /* PrefectureNameMappings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,8 +197,10 @@
 				92D5C8DA2B0F5B6B00069DC6 /* Prefectures.swift in Sources */,
 				92EAF0522B0F7AF400B68F90 /* Utils.swift in Sources */,
 				9230E0352B088BB800448396 /* WeatherAppApp.swift in Sources */,
+				92715C752B17A069004F7C8B /* PrefectureNameMappings.swift in Sources */,
 				92D5C8D82B0F2CED00069DC6 /* OpenWeatherMapAPIModels.swift in Sources */,
 				92754C1F2B0BAA070053BC91 /* GetWeather.swift in Sources */,
+				92715C732B179C22004F7C8B /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +338,8 @@
 				DEVELOPMENT_TEAM = R768UFA97L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "天気情報を取得するために位置情報を取得します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -360,6 +372,8 @@
 				DEVELOPMENT_TEAM = R768UFA97L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "天気情報を取得するために位置情報を取得します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
